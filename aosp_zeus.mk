@@ -9,9 +9,12 @@ $(call inherit-product, device/xiaomi/zeus/device.mk)
 
 # Inherit from common lineage configuration
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_zeus
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Product Info
+PRODUCT_NAME := aosp_zeus
 PRODUCT_DEVICE := zeus
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi

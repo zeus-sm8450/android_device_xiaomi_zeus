@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_zeus.mk
+    $(LOCAL_DIR)/aosp_zeus.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_zeus-user \
-    lineage_zeus-userdebug \
-    lineage_zeus-eng
+    aosp_zeus-user \
+    aosp_zeus-userdebug \
+    aosp_zeus-eng
