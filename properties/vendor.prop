@@ -1,0 +1,8 @@
+ro.vendor.display.dynamic_refresh_rate=120,90,60,30:100,60,5
+ro.vendor.fod.110nit.lux.level=1
+ro.vendor.display.primary_idle_refresh_rate=60,30,10,1:984,1312,7368
+persist.vendor.disable_idle_fps=false
+ro.vendor.display.papercontrast.opt=true
+ro.vendor.display.ltpo.sync.tp=true
+ro.vendor.display.dolbyvision.support=true
+ro.vendor.display.video_or_camera_fps.support=true
