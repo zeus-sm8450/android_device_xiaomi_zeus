@@ -13,6 +13,10 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Miui Camera
+$(call inherit-product, device/xiaomi/miuicamera-zeus/device.mk)
+$(call inherit-product, device/xiaomi/miuicamera-zeus/BoardConfig.mk)
+
 # Product Info
 PRODUCT_NAME := aosp_zeus
 PRODUCT_DEVICE := zeus
